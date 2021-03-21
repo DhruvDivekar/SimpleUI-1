@@ -1,0 +1,92 @@
+:root{
+    --grey:#f2f2f2 ;
+    --white:#ffffff;
+    --green:#4cad52;
+
+}
+.logo {
+    
+}
+
+.login-container{
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-right: 50px;
+}
+
+.logo1{
+    border-radius: 20%;
+}
+
+body{
+    background-color: #f2f2f2;
+}
+
+.login-card{    
+    height: 450px;
+    width: 100%;
+    border: 1px solid #c2c2c2;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.login-tab{
+    height: 50px;
+    border-bottom: 2px solid #c2c2c2;
+}
+
+.login-tab-data{
+    margin: 0% 25%;
+}
+
+.tab-text{
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 32px;
+    margin-bottom: 0px;
+}
+
+.tab-text:hover{
+    border-bottom: 2px solid green;
+    color: green;
+}
+
+.input-label{
+    display: block;
+    color: grey;
+}
+
+.input{
+    height: 25px;
+    width: 100%;
+}
+
+.input:focus{
+    outline-color: green;
+}
+
+.input-container{
+    width: 450px;
+    margin-top: 25px;
+}
+
+.checkbox-text{
+    display: inline-block;
+    color: grey;
+}
+
+.btn{
+    width: 75%;
+    height: 40px;
+    background-color: green;
+    color: white;
+    border: 1px solid darkgreen;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: darkgreen;
+    box-shadow: darkslategray;
+}
+
+.btn:hover{
+    box-shadow: 2px 2px 5px 1px grey;
+}
